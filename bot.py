@@ -1,3 +1,8 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # loads .env from your laptop
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 import os
 import re
 from dotenv import load_dotenv
